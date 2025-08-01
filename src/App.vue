@@ -1,11 +1,15 @@
-<script setup>
-</script>
-
 <template>
-
-
+  <div id="app">
+    <CsvUploader />
+  </div>
 </template>
 
-<style scoped>
+<script>
+import CsvUploader from './components/CsvUploader.vue'
 
-</style>
+export default {
+  components: {
+    CsvUploader
+  }
+}
+</script>
