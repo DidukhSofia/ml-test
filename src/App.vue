@@ -1,15 +1,15 @@
 <template>
   <div id="app">
-    <CsvUploader />
+    <Dashboard />
   </div>
 </template>
 
 <script>
-import CsvUploader from './components/CsvUploader.vue'
-
+import Dashboard from "./pages/Dashboard.vue";
 export default {
+  name: "App",
   components: {
-    CsvUploader
-  }
-}
+    Dashboard,
+  },
+};
 </script>
