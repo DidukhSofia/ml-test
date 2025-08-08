@@ -1,5 +1,14 @@
-# Vue 3 + Vite
+This is a Vue.js project bootstrapped with [Vite](https://vitejs.dev/). Follow the steps below to install dependencies and start the development server.
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Getting Started
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+Make sure you have [Node.js](https://nodejs.org/) installed.
+
+### Installation and Running
+npm install
+npm run dev
+After running the commands above, the development server will start and the app will be available at:
+
+http://localhost:5173
+
+Link to the aplication: https://ml-test-five.vercel.app
